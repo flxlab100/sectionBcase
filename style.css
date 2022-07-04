@@ -1,9 +1,3 @@
-nav a{
-    display: inline-block;
-    column-gap: 100em;
-    text-decoration: none;
-    background-color:#fbbd04
-}
 
 * {
     margin: 0px;
@@ -14,50 +8,98 @@ nav a{
 header{
     text-align: center;
     text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color:white;
 }
 
-header > img {
-    width: 100%;
-    height:100px;
-  }
+
+  nav {
+    font-size: 25px;
+     
+}
+
+  nav a{
+    display: inline-block;
+    column-gap: 100px;
+    text-decoration: none;
+    background-color:#fbbd04
+}
+
+.main-menu{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+section{
+    display: grid;
+    justify-items: center;
+    border:#fbbd04
+}
 
 .grid_menu{
     display:grid;
     width:70%;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 200px;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 100px;
-    padding: 10px;
+    padding: 2px;
+    border-style:none;
+    border-radius: 5px;
+    gap: 10px;
+    align-content: stretch;
+    
 }
 
 .menu_item {
     background-color: rgb(236, 240, 242);
-    border-radius: 0px;
-    border: 2px burlywood;
+    border-radius: 4px;
+    border:1px solid #fbbd04
+    padding: 50px;
     align-items: center;
-    
+       
 }
-
 
 .tacos {
     background-image: url(./images/queso-taco.png);
     background-size: 90px;
     background-position: center;
     background-repeat: no-repeat;
-    color:brown
+    color:brown;
+    text-align: center;
+
 }
 
-.burrito{
+.wines{
+    background-image: url(./images/wines.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     color:brown;
+    text-align: center;
 }
 
 .beer{
+    background-image: url(./images/beer.jpg);
+    background-size: contain;
+    background-position: start;
     background-repeat: no-repeat;
     color:brown;
+    text-align: center;
 }
+
+.desserts{
+    background-image: url(./images/desserts.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:brown;
+    text-align: center;
+}
+
+
 
 
 body{
@@ -65,5 +107,16 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     color:aliceblue;
+
+}
+
+p{
+    text-align: center;
+}
+
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
