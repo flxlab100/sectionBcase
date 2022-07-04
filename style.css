@@ -14,24 +14,15 @@ header{
 }
 
 
-  nav {
-    font-size: 25px;
-     
-}
-
   nav a{
     display: inline-block;
-    column-gap: 100px;
+    background-color:#f5bc12;
     text-decoration: none;
-    background-color:#fbbd04
+    font-size: 20px;
+    color: rgb(6, 57, 129);
+    border-radius: 2px;
 }
 
-.main-menu{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-
-}
 
 section{
     display: grid;
@@ -48,29 +39,33 @@ section{
     padding: 2px;
     border-style:none;
     border-radius: 5px;
-    gap: 10px;
+    gap: 60px;
     align-content: stretch;
     
 }
 
 .menu_item {
     background-color: rgb(236, 240, 242);
-    border-radius: 4px;
-    border:1px solid #fbbd04
-    padding: 50px;
-    align-items: center;
-       
+    border-radius: 10px;
+    border: 1px solid #f0f2ef
+    padding: 200px;
+      
 }
 
-.tacos {
+
+.tacos {  
     background-image: url(./images/queso-taco.png);
-    background-size: 90px;
+    background-size: 80px;
     background-position: center;
     background-repeat: no-repeat;
-    color:brown;
+    color:rgb(148, 10, 93);
     text-align: center;
+    font-size: 30px;
+    justify-items: stretch;
 
 }
+
+
 
 .wines{
     background-image: url(./images/wines.jpg);
@@ -79,6 +74,9 @@ section{
     background-repeat: no-repeat;
     color:brown;
     text-align: center;
+    font-size: 30px;
+    justify-items: stretch;
+    
 }
 
 .beer{
@@ -86,8 +84,10 @@ section{
     background-size: contain;
     background-position: start;
     background-repeat: no-repeat;
-    color:brown;
+    color:rgb(81, 233, 64);
     text-align: center;
+    font-size: 30px;
+    justify-items: stretch;
 }
 
 .desserts{
@@ -95,11 +95,11 @@ section{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    color:brown;
+    color:rgb(232, 185, 32);
     text-align: center;
+    font-size: 30px;
+    justify-items: stretch;
 }
-
-
 
 
 body{
@@ -109,6 +109,7 @@ body{
     color:aliceblue;
 
 }
+
 
 p{
     text-align: center;
